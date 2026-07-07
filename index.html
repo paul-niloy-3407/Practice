@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML and CSS Practice</title>
     <link rel="icon" href="/Images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/style.css">
     <style>
         h1 {
-            text-align: center;
+            /* text-align: center; */
             color: #ff0000;
         }
 
         h2 {
-            color: rgb(105, 95, 234);
-            text-align: center;
+            color: rgb(87, 16, 75);
+            /* text-align: center; */
         }
 
         body {
@@ -38,7 +39,7 @@
 </head>
 
 <body>
-    <nav> <a href="Day1.html">Next Page</a></nav>
+    <nav class="nav bar"> <a href="Day1.html">Next Page</a></nav>
     <header>
         <h1>World Cup 2026</h1>
         <h2> Golden Boot Race</h2>
@@ -51,8 +52,13 @@
             <p> Country: France</p>
             <p> Goals: 7</p>
             <p> Assists: 2</p>
-            <img src="./Images/Mbappe.webp" alt="Kylian Mbappé" width="50%">
-            </section>
+            <div><img src="./Images/Mbappe.webp" alt="Kylian Mbappé">
+                <video width="50%" controls autoplay muted loop>
+                    <source src="./Video/Perfect_goal_mbappe.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
         <section>
             <ol start="2">
                 <li>Lionel Messi</li>
@@ -60,7 +66,12 @@
             <p> Country: Argentina</p>
             <p> Goals: 7</p>
             <p> Assists: 0</p>
-            <img src="./Images/messi.jpg" alt="Lionel Messi" width="50%">
+            <div><img src="./Images/messi.jpg" alt="Lionel Messi" width="50%">
+                <video width="50%" controls autoplay muted loop>
+                    <source src="./Video/Messi_All_Time_Goal_Scorer_In_FIFA_World_Cup.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </section>
         <section>
             <ol start="3">
@@ -69,7 +80,12 @@
             <p> Country: Norway</p>
             <p> Goals: 7</p>
             <p> Assists: 0</p>
-            <img src="./Images/Haaland.webp" alt="Erling Haaland" width="50%">
+            <div><img src="./Images/Haaland.webp" alt="Erling Haaland" width="50%">
+                <video width="50%" controls autoplay muted loop>
+                    <source src="./Video/ALL_52_ERLING_HAALAND_GOALS_Man_City_Season_2022_23_Every_Goal.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </section>
 
     </main>
